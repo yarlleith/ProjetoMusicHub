@@ -1,0 +1,69 @@
+/* ONFIGURAÇÃO DA PAGINA */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        background-color: #121212;
+        font-family: 'Montserrat', sans-serif; 
+}
+
+a {
+  text-decoration: none;
+}
+
+body,html {
+    min-height: 100vh;
+    width: 100%;
+   
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    
+    padding: 0 10px 0 0px;
+    align-items: center;
+ 
+}
+.logo {
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    height: 75px;
+}
+.logo h1{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+.navegacao-header input{
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+
+.perfil{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.sobre-nos{
+    font-size: 15px;
+}
+
+.perfil i{
+    font-size: 40px;
+}
