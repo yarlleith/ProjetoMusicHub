@@ -71,7 +71,7 @@ body {
 /* BANNER PRINCIPAL */
 
 .banner-principal {
-    background-image: url("../imgs/banner_principal\ -\ MusicHub.svg");
+    background-image: url("");
     background-size: cover;
 
     height: 34em;
@@ -132,4 +132,34 @@ body {
 
 .banner-secundario img {
     height: 600px;
+}
+
+/* INFORMAÇÃO */
+
+.informacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 70px;
+}
+
+.informacao .icones {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.informacao .icones img {
+    text-align: center;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+.informacao .icones h3 {
+    font-size: 30px;
+}
+
+.informacao .icones p {
+    font-size: 20px;
 }
