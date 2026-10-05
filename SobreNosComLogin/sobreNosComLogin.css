@@ -67,3 +67,30 @@ body {
     transform: translateY(-3px);
 
 }
+
+/* BANNER PRINCIPAL */
+
+.banner-principal {
+    background-image: url("../imgs/banner_principal\ -\ MusicHub.svg");
+    background-size: cover;
+
+    height: 34em;
+}
+
+.banner-principal .texto-banner {
+    align-items: center;
+    display: grid;
+    gap: 40px;
+}
+
+.banner-principal .texto-banner h1 {
+    color: var(--cor-texto);
+    font-size: 80px;
+    width: 805px;
+
+}
+
+.banner-principal .texto-banner p {
+    font-size: 25px;
+    width: 540px;
+}
