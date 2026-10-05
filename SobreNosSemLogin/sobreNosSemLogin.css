@@ -77,12 +77,13 @@ a {
 .cabecalho .navegacao #voltar {
     font-size: 25px;
     align-items: center;
+    color: var(--cor-secundaria);
 }
 
 .cabecalho .navegacao #voltar:hover {
     cursor: pointer;
     transform: translateY(-3px);
-    color: var(--cor-secundaria);
+    color: var(--cor-texto);
 }
 
 .cabecalho .navegacao #inscrever:hover {
