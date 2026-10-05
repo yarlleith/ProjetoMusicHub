@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicHub - Cadastrar Música</title>
+
+
+    <link rel="stylesheet" href="musicas.css">
+</head>
+
+<body>
+
+    <!-- Cabecalho e barra de nav -->
+    <header class="cabecalho">
+        <a href="#" class="logo-marca">
+            <img src="../../imgVisaoAdm/ad35a714-13a4-45ea-b131-c7d58485ca61 4 (2).png" alt="MusicHub Logo"
+                class="imagem-logo-cabecalho">
+            <span class="texto-marca">MusicHub</span>
+        </a>
+    </header>
+
+    <!-- retangulo Principal -->
+    <main class="area-principal">
+        <div class="cartao-cadastro">
+
+            <!-- Logo Central -->
+            <div class="container-logo-central">
+                <img src="../../imgVisaoAdm/ad35a714-13a4-45ea-b131-c7d58485ca61 4 (2).png" alt="MusicHub Logo"
+                    class="imagem-logo-principal">
+            </div>
+
+            <h1 class="titulo-cartao">Cadastre aqui uma nova música</h1>
+            <p class="subtitulo-cartao">Espalhe os melhores hits pelo mundo</p>
+
+
+            <div class="formulario">
+
+
+                <div class="input-texto">
+                    <label class="rotulo-campo" for="nome-artista">Nome da música</label>
+                    <input type="text" id="nome-artista" class="caixa-texto" placeholder="Ex. João silva">
+                </div>
+
+
+                <div class="input-texto">
+                    <label class="rotulo-campo" for="email-artista">Letra da música</label>
+                    <input type="email" id="email-artista" class="caixa-texto"
+                        placeholder="Ex.: Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+                </div>
+
+
+                <div class="input-texto">
+                    <label class="rotulo-campo" for="codigo-artista">Associar ao artista</label>
+                    <input type="text" id="codigo-artista" class="caixa-texto" placeholder="Ex. Racionais">
+                </div>
+
+                <!-- Senha -->
+                <div class="input-texto">
+                    <label class="rotulo-campo" for="senha-artista">Código da música</label>
+                    <div class="container-senha">
+                        <input type="password" id="senha-artista" class="caixa-texto">
+                        <button type="button" class="botao-ocultar-senha" id="botaoOcultarSenha"
+                            aria-label="Mostrar/Esconder senha">
+                            <i class="fa-regular fa-eye-slash" id="iconeSenha"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="input-texto largura-total">
+                    <label class="rotulo-campo" for="informacao-adicional">Informação adicional sobre a música</label>
+                    <input type="text" id="informacao-adicional" class="caixa-texto"
+                        placeholder="Ex. data de publicação...">
+                </div>
+
+            </div>
+
+            <!-- Termos e Condicoes -->
+            <div class="container-termos">
+                <input type="checkbox" id="caixa-termos" class="caixa-selecao" required>
+                <label for="caixa-termos" class="rotulo-termos">
+                    Eu li e concordo com os <span class="destaque-termos">Termos de uso</span> e <span
+                        class="destaque-termos">Política de privacidade</span> do MusicHub
+                </label>
+            </div>
+
+
+            <button type="submit" class="botao-cadastrar">
+                Cadastrar
+            </button>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
