@@ -171,7 +171,8 @@ body {
     justify-content: space-between;
     align-items: baseline;
     padding: 70px;
-
+    text-align: center;
+    
     color: var(--cor-texto);
 }
 
