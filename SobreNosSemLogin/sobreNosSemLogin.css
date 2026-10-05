@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --cor-destaque: #6229D4;
+    --cor-texto: #FFFFFF;
+    --cor-secundaria: #D9D9D9;
+}
+
 body {
     background-color: #000000;
+}
 
+a {
+    text-decoration: none;
+    color: var(--cor-texto);
 }
 
 /* CABEÇALHO */
@@ -8,6 +27,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 30px;
+}
+
+.cabecalho a {
+    color: #000000;
 }
 
 .cabecalho h2 {
@@ -75,12 +100,18 @@ body {
     background-size: cover;
 
     height: 34em;
+    padding: 70px;
+    color: var(--cor-texto);
 }
 
 .banner-principal .texto-banner {
     align-items: center;
     display: grid;
     gap: 40px;
+}
+
+.banner-principal .texto-banner span {
+    color: var(--cor-destaque);
 }
 
 .banner-principal .texto-banner h1 {
@@ -102,6 +133,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 70px 0px 70px 70px;
+
+    color: var(--cor-texto);
 }
 
 .banner-secundario .historia {
@@ -136,11 +169,14 @@ body {
 
 /* INFORMAÇÃO */
 
-.informacao {
+.alinhamento {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding: 70px;
+    text-align: center;
+
+    color: var(--cor-texto);
 }
 
 .informacao .icones {
@@ -173,6 +209,9 @@ body {
     color: var(--cor-texto);
 
     align-items: center;
+
+    text-decoration: none;
+    color: var(--cor-texto);
 }
 
 .conteudo-rodape {
