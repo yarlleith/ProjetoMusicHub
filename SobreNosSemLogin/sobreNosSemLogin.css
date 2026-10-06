@@ -298,6 +298,10 @@ a {
     gap: 20px;
 }
 
+.apps-contato a:hover {
+        transform: translateY(-3px);
+    }
+
 /* RESPONSIVIDADE */
 /*Celular: 480px  Tablet: 760px  Computador: 1280px*/
 
