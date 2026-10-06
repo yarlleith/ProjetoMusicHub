@@ -277,7 +277,7 @@ body,html {
     position: absolute;
     bottom: 80px; /* Distancia a parte de baixo*/
     left: 25px;/* Distancia a esqueerda*/
-    z-index: 2;/* Garante que fique por cima de imagem*/
+    z-index: 2;/* Garante que fique por cima de imgHomeLogin*/
     display: flex;
     flex-direction: column;
     background-color: transparent;
