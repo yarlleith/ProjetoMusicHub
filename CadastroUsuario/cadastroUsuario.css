@@ -294,3 +294,48 @@ form {
     flex-wrap: wrap;
     gap: 20px;
 }
+
+/* GLOBAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --texto: #26333D;
+    --branco: #FFFFFF;
+    --cor-destaque: #2FD6CB;
+    --fundos: #9EA9BD;
+    --textos-paginas: #535353;
+    --cor-bordas: #CCCCCC;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body { 
+    font-family: "Montserrat", sans-serif; 
+ 
+}
+
+.cabecalho {
+    display: flex;
+    /* flex direction; */
+    /* Por padrão o Flex vem na direção Row/Linha */
+
+    /* Alinha no sentido do Flex */
+    justify-content: space-between;
+
+    /* Alinha no sentido contrário do Flex */
+    align-items: center;
+
+    padding: 0 120px;
+
+    height: 10vh;
+}
