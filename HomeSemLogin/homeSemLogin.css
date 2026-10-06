@@ -97,21 +97,33 @@ body,html {
   color: #ffffff;
 }
 
-
-.perfil{
+.conteudo-direita{
+    display: flex;align-items: center;
+    gap: 50px;
+}
+.login-cadastro{
     display: flex;
-    gap: 30px;
     align-items: center;
-
+    gap: 15px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height:40px;
+    align-items: center;
+    background-color: var(--cor-texto);
+    border-radius: 20px;
+}
+.login a{
+    color: black;
+    font-weight: 550;
 }
 
 .sobre-nos{
     font-size: 15px;
 }
 
-.perfil i{
-    font-size: 40px;
-}
 
 /* MENU LATERAL */
 .menu-lateral{
@@ -299,7 +311,7 @@ body,html {
     position: absolute;
     bottom: 80px; /* Distancia a parte de baixo*/
     left: 25px;/* Distancia a esqueerda*/
-    z-index: 2;/* Garante que fique por cima de imgHomeLogin*/
+    z-index: 2;/* Garante que fique por cima de imgHomeSemLogin*/
     display: flex;
     flex-direction: column;
     background-color: transparent;
