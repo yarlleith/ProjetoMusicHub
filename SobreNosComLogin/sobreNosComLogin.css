@@ -166,7 +166,7 @@ body {
 
 /* INFORMAÇÃO */
 
-.informacao {
+.alinhamento {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
