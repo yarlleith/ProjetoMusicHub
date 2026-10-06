@@ -297,6 +297,7 @@ a{
 }
 
 .apps-contato a:hover {
+    cursor: pointer;
     transform: translateY(-3px);
 }
 
